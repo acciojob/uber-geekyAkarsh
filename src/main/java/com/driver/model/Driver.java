@@ -27,6 +27,10 @@ public class Driver{
         return driverId;
     }
 
+    public void setDriverId(Integer driverId) {
+        this.driverId = driverId;
+    }
+
     public String getMobile() {
         return mobile;
     }

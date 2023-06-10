@@ -25,6 +25,10 @@ public class Cab {
         return id;
     }
 
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
     public Integer getPerKmRate() {
         return perKmRate;
     }
