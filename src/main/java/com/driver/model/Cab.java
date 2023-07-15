@@ -13,9 +13,8 @@ public class Cab {
 
     private Boolean available;
 
-    public Cab(){
+    public Cab(){ }
 
-    }
     public Cab(Integer perKmRate, Boolean available) {
         this.perKmRate = perKmRate;
         this.available = available;
